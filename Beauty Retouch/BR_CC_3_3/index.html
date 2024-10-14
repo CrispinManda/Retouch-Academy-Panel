@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/styles.css"/>
+<link id="hostStyle" rel="stylesheet" href="css/theme.css"/>
+<link rel="icon" type="image/png" href="icon.png"/>
+<title></title>
+</head>
+
+<body>
+  <div id="panel" class="panel">
+    <div class="tools">
+
+      <!--DODGE & BURN-->
+
+      <div class="btn-set marg-t-80">
+        <button id="local-curves" class="btn btn-74x29 marg-r-5 pull-left"></button>
+        <button id="global-layer" class="btn btn-68x29 marg-r-5 pull-left"></button>
+        <button id="local-curves-brush-db" class="btn btn-29x29 pull-left"></button>
+      </div>
+      <div class="btn-set">
+        <button id="dodge" class="btn btn-39x29 marg-r-4 pull-left"></button>
+        <button id="burn" class="btn btn-39x29 marg-r-4 pull-left"></button>
+        <button id="gray-layer" class="btn btn-29x29 marg-r-4 pull-left"></button>
+        <button id="aid" class="btn btn-29x29 marg-r-4 pull-left"></button>
+        <button id="global-layer-brush" class="btn btn-29x29 pull-left"></button>
+      </div>
+
+      <!--FREQUENCY SEPARATION-->
+
+      <div class="btn-set marg-t-30">
+        <button id="gaussian" class="btn btn-113 marg-r-5 pull-left"></button>
+        <button id="custom" class="btn btn-63 pull-left"></button>
+      </div>
+      <div class="btn-set">
+        <button id="median" class="btn btn-67 marg-r-5 pull-left"></button>
+        <button id="digital-skin" class="btn btn-109 pull-left"></button>
+      </div>
+
+      <!--LUMINOSITY MASKING-->
+
+      <div class="btn-set marg-t-30">
+        <button id="basic" class="btn btn-54 marg-r-5 pull-left"></button>
+        <button id="plus" class="btn btn-29x29 marg-r-5 pull-left"></button>
+        <button id="minus" class="btn btn-29x29 marg-r-5 pull-left"></button>
+        <button id="invert" class="btn btn-54 pull-left"></button>
+      </div>
+
+      <!--FACE MAKEUP & HAIR-->
+
+      <div class="btn-set marg-t-30">
+        <button id="magical-skin" class="btn btn-big"></button>
+      </div>
+      <div class="btn-set">
+        <button id="glowing-skin" class="btn btn-default pull-left"></button>
+        <button id="anti-pink" class="btn btn-default pull-right"></button>
+      </div>
+      <div class="btn-set">
+        <button id="magic-eyes" class="btn btn-default pull-left"></button>
+        <button id="magic-smile" class="btn btn-default pull-right"></button>
+      </div>
+      <div class="btn-set">
+        <button id="remove-hair" class="btn btn-big"></button>
+      </div>
+
+      <div class="btn-set">
+        <button id="hair-highlight" class="btn btn-3x4 marg-r-5 pull-left"></button>
+          <button id="brush-1" class="btn btn-29x29 marg-r-5 pull-left"></button>
+          <button id="brush-2" class="btn btn-29x29 pull-left"></button>
+      </div>
+
+      <!--QUALITY CONTROL-->
+
+      <div class="btn-set marg-t-30">
+        <button id="solar-curve" class="btn btn-default pull-left"></button>
+        <button id="over-saturation" class="btn btn-default pull-right"></button>
+      </div>
+
+      <!--USER ACTIONS-->
+
+      <div class="btn-set btn-set-bot-0 marg-t-30">
+        <button id="a" class="btn btn-29x29 pull-left marg-r-2"></button>
+        <button id="b" class="btn btn-29x29 pull-left marg-r-1"></button>
+        <button id="c" class="btn btn-29x29 pull-left marg-r-1"></button>
+        <button id="d" class="btn btn-29x29 pull-left marg-r-1"></button>
+        <button id="e" class="btn btn-29x29 pull-left marg-r-2"></button>
+        <button id="f" class="btn btn-29x29 pull-left"></button>
+
+      </div>
+
+      <div class="btn-set marg-t-10">
+        <button id="lev"class="btn btn-21x18 marg-r-11 pull-left"></button>
+        <button id="cur"class="btn btn-21x18 marg-r-11 pull-left"></button>
+        <button id="hue"class="btn btn-21x18 marg-r-11 pull-left"></button>
+        <button id="sel"class="btn btn-21x18 marg-r-11 pull-left"></button>
+        <button id="liquify" class="btn btn-22x18 marg-r-8 pull-left"></button>
+        <button id="liquify-smart" class="btn btn-23x18 pull-left"></button>
+
+        <button id="sharpen-image" class="btn marg-t-10 btn-23x20  marg-r-7 pull-left"></button>
+        <button id="add-new-layer" class="btn marg-t-10 btn-23x20 marg-r-8 pull-left"></button>
+        <button id="leyr"class="btn marg-t-10 btn-27x20 marg-r-8 pull-left"></button>
+        <button id="size" class="btn marg-t-10 btn-23x20 marg-r-7 pull-left"></button>
+        <button id="web-size"class="btn marg-t-10 btn-23x20 marg-r-7 pull-left"></button>
+        <button id="save-as" class="btn marg-t-10 btn-23x20 pull-left"></button>
+      </div>
+
+      <div class="signature"></div>
+        <!--BOTTOM BAR-->
+        <div class="btn-set menu marg-t-5"></div>
+
+        <button id="btn2" onclick="btn1()" class="btn btn-17x16  marg-r-24 pull-left imgWrap">
+            <p class="imgDescription" style="left: -11px; top: -53px;">Video Tutorials</p>
+        </button>
+
+        <button id="btn4" onclick="btn2()" class="btn btn-17x16 marg-r-24 marg-t-1 pull-left imgWrap">
+            <p class="imgDescription" style="left: -11px; top: -54px;">Bonus Materials</p>
+        </button>
+
+        <button id="btn3" onclick="btn3()" class="btn btn-17x16 marg-r-24 marg-t-1 pull-left imgWrap">
+            <p class="imgDescription" style="left: -11px; top: -64px;">RA Panels Instagram</p>
+        </button>
+
+        <button id="btn1" onclick="btn4()" class="btn btn-17x16 marg-r-24 marg-t-1 pull-left imgWrap">
+            <p class="imgDescription" style="left: -11px; top: -54px;">Contact Support</p>
+        </button>
+
+        <button id="btn5" onclick="btn5()" class="btn btn-17x16   pull-left imgWrap">
+            <p class="imgDescription" style="left: -20px; top: -64px;">Your Member Area</p>
+        </button>
+
+    </div>
+  </div>
+
+    <script src="js/libs/CSInterface-4.0.0.js"></script>
+    <script src="js/libs/jquery-2.0.2.min.js"></script>
+    <script src="js/themeManager.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

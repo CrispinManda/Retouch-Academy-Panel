@@ -1,0 +1,258 @@
+html, body {
+height: 100%;
+overflow: hidden;
+}
+
+#logo {	
+	    cursor: pointer;}
+
+#accordion .ui-icon { 
+	display: none; 
+}
+#accordion .ui-accordion-header a {          
+	padding-left: 0; 
+}
+.ui-accordion .ui-accordion-icons { 
+	padding-left: 0.6em;                    
+}
+.ui-accordion .ui-accordion-header { 
+	margin-top: -1px; 	
+						
+}
+.ui-accordion .ui-accordion-content {
+	padding: 0.5em 0.5em;
+	height: 274px;                     
+}
+.ui-button-text-only .ui-button-text {
+	padding: 0;
+}
+
+#button {
+	border-radius: 10px;
+	
+
+
+}
+body {
+	font-size: 0.55em;   <!-- увеличивает шрифт название 1-7 и делает их толше или больше -->
+}
+#content {
+	margin-right:auto;  
+	margin-left:auto;  
+	vertical-align:middle;
+	width:100%;
+	
+}
+
+.icon_5 {
+opacity: 2.8;
+border: none !important;
+margin: 3px 9px;
+margin-left: 0;
+margin-left: -2;
+height: 18px;
+width: 18px;
+background: none !important;
+display:block;
+float:left;
+
+}
+
+
+
+.icon_list{
+	
+}
+
+
+.ac_block {
+	display: block;
+	height: 26em;
+	width: 243px;
+}
+
+
+.button {Width: 77px; height: 28px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:4px 1px; padding:0px;
+text-align: center;
+} 
+ 
+ .icon_6 {
+opacity: 2.8;
+border: none !important;
+margin: 3px 10px;
+margin-left: 0;
+margin-left: -2;
+margin-right:-2px;
+height: 18px;
+width: 18px;
+background: none !important;
+display:block;
+float:left;
+} 
+ .button1 {Width: 242px; height: 30px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:7px 1px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+ .button12 {Width: 243px; height: 25px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:5px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+ 
+.button2 {Width: 46px; height: 21px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:3px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+.button3 {Width: 120px; height: 21px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:2px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button31 {Width: 120px; height: 23px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:1px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button32 {Width: 119px; height: 21px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:2px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button4 {Width: 58px; height: 21px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:3px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button41 {Width: 58px; height: 21px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:8px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button42 {Width: 27px; height: 21px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:3px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button43 {Width: 28px; height: 21px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:3px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button44 {Width: 59px; height: 21px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:3px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button5 {Width: 79px; height: 22px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:5px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button52 {Width: 79px; height: 22px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:3px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+.button6 {Width: 85px; height: 50px;
+font-family: "Arial"; 
+font-size: 0.1em;
+margin:5px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+.Center {padding-bottom: 1px;
+padding-top: 2px;
+text-align: center;
+} 
+
+.ui-button-text
+{width:auto;
+} 
+
+.text
+{margin:1px 1px;
+} 
+
+.link {float:right; margin-right: -10px; 
+margin-top: 3px;
+width:95;
+height: 12px;
+}
+#logo {	
+	    cursor: pointer;}
+	    
+	    .line {
+	margin: 1px -4px;
+
+	opacity: 0.2;
+	
+	border: 1px solid black;
+
+	width: 249px;
+}
+	    
+	    .line1 {margin:6px 1px;
+	opacity: 0.3;
+		border: 1px solid black;
+	width: 241px;
+}
+	    
+	    .line2 {
+margin: 3px -4px;
+opacity: 0.2;
+border: 1px solid black;
+width: 249px;
+	    }
+
+	    .line3 {
+margin: 5px -4px;
+opacity: 0.2;
+border: 1px solid black;
+width: 249px;}
+
+ .line4 {
+margin: 2px -4px;
+opacity: 0.2;
+border: 1px solid black;
+width: 249px;}
+

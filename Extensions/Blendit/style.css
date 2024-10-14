@@ -1,0 +1,120 @@
+html, body {
+height: 100%;
+overflow: hidden;
+}
+
+#logo {	
+	    cursor: pointer;}
+
+#accordion .ui-icon { 
+	display: none; 
+}
+#accordion .ui-accordion-header a {          
+	padding-left: 0; 
+}
+.ui-accordion .ui-accordion-icons { 
+	padding-left: 0.6em;                    
+}
+.ui-accordion .ui-accordion-header { 
+	margin-top: -1px; 	
+						
+}
+.ui-accordion .ui-accordion-content {
+	padding: 0.5em 0.5em;
+	height: 274px;                     
+}
+.ui-button-text-only .ui-button-text {
+	padding: 0;
+}
+
+
+	
+#button {
+	border-radius: 10px;
+	
+
+
+}
+body {
+	font-size: 0.55em;   <!-- увеличивает шрифт название 1-7 и делает их толше или больше -->
+}
+
+	
+}
+
+.icon_5 {
+opacity: 0.8;
+border: none !important;
+margin: 3px 15px;
+margin-left: 0;
+height: 18px;
+width: 18px;
+background: none !important;
+display:block;
+}
+
+
+
+.icon_list{
+	
+}
+
+
+.ac_block {
+	display: block;
+	height: 26em;
+	width: 243px;
+}
+
+
+ 
+
+.button52 {Width: 109px; height: 19px;
+font-family: "Arial"; 
+font-size: 9px;
+margin:1px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.button521 {Width: 109px; height: 19px;
+font-family: "Arial"; 
+font-size: 9px;
+margin:1px 0px; padding:0px;
+text-align: center;
+border-radius: 1px;
+} 
+
+.line {
+	margin: 3px -4px;
+
+	opacity: 0.3;
+	
+	border: 1px solid black;
+
+	width: 113px;
+} 
+
+
+.Center {padding-bottom: 1px;
+padding-top: 2px;
+text-align: center;
+} 
+
+.ui-button-text
+{width:auto;
+} 
+
+.text
+{margin:1px 1px;
+} 
+
+.link {float:right; margin-right: 3px; 
+width:95;
+margin-top:354px;
+height: 12px;
+}
+#logo {	
+	    cursor: pointer;}
+	    
+

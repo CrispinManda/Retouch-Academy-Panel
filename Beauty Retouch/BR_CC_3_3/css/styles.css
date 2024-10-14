@@ -1,0 +1,1282 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+   overflow: hidden;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+
+}
+
+button:focus {outline:0;}
+.pull-left {
+  float: left;
+}
+.pull-right {float:right;}
+
+
+.panel {
+  width: 181px;
+  height: 724px;
+  padding: 9px 14px 1px 13px;
+  background: url("../img/background.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .panel {
+    background-image: url('../img/background@2x.png');
+    background-size: 100%;
+  }
+}
+
+
+/*.logo {*/
+  /*width: 159px;*/
+  /*margin: 0 auto;*/
+  /*height: 45px;*/
+  /*margin-bottom: 5px; */
+  /*background : url("../img/logo.png") no-repeat;*/
+/*}*/
+
+.tools {
+  margin-top: 7px;
+}
+
+button.marg-2 {
+  margin: 0 2px;
+}
+
+button.marg-5 {
+  margin: 0 5px;
+}
+
+button.marg-l-1 {
+  margin-left: 1px;
+}
+button.marg-l-2 {
+  margin-left: 2px;
+}
+button.marg-l-3 {
+  margin-left: 3px;
+}
+button.marg-l-7 {
+  margin-left: 7px;
+}
+
+button.marg-1 {
+  margin: 0 1px;
+}
+button.marg-r-1 {
+  margin-right: 1px;
+}
+button.marg-r-2 {
+  margin-right: 2px;
+}
+button.marg-r-3 {
+  margin-right: 3px;
+}
+button.marg-r-4 {
+  margin-right: 4px;
+}
+button.marg-r-5 {
+  margin-right: 5px;
+}
+button.marg-r-6 {
+  margin-right: 6px;
+}
+button.marg-r-7 {
+  margin-right: 7px;
+}
+button.marg-r-8 {
+  margin-right: 8px;
+}
+button.marg-r-9 {
+  margin-right: 9px;
+}
+button.marg-r-10 {
+  margin-right: 10px;
+}
+button.marg-r-11 {
+  margin-right: 11px;
+}
+button.marg-r-25 {
+  margin-right: 25px;
+}
+
+.btn-set {
+  overflow: hidden;
+  margin-bottom: 4px;
+  padding-bottom: 1px;
+  width: 100%;
+}
+.btn-set-bot-0{
+	margin-bottom: 0
+}
+
+.btn {
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  border: 0;
+  background-size: contain;
+}
+
+.btn-default {
+  width: 88px;
+  height: 29px;
+}
+
+.btn-3x4 {
+  width: 113px;
+  height: 29px;
+}
+
+.btn-big {
+  width: 181px;
+  height: 29px;
+}
+
+.btn-mid {
+  width: 147px;
+  height: 29px;
+}
+.btn-74x29 {
+  width: 74px;
+  height: 29px;
+}
+.btn-68x29 {
+  width: 68px;
+  height: 29px;
+}
+
+.btn-tiny {
+  width: 27px;
+  height: 29px;
+}
+
+.btn-56 {
+  width: 57px;
+  height: 29px;
+}
+
+.btn-67 {
+  width: 67px;
+  height: 29px;
+}
+
+.btn-63 {
+  width: 63px;
+  height: 29px;
+}
+.btn-109 {
+  width: 109px;
+  height: 29px;
+}
+.btn-113 {
+  width: 113px;
+  height: 29px;
+}
+
+.btn-54 {
+  width: 54px;
+  height: 29px;
+}
+.btn-17x16 {
+  width: 17px;
+  height: 16px;
+}
+.btn-39x29 {
+  width: 39px;
+  height: 29px;
+}
+.btn-21x18 {
+  width: 21px;
+  height: 18px;
+}
+.btn-23x20 {
+  width: 23px;
+  height: 20px;
+}
+.btn-23x18 {
+  width: 23px;
+  height: 18px;
+}
+.btn-22x18 {
+  width: 22px;
+  height: 18px;
+}
+.btn-27x20 {
+  width: 27px;
+  height: 20px;
+}
+.btn-29x29 {
+  width: 29px;
+  height: 29px;
+}
+button.marg-t-1 {
+  margin-top: 1px;
+}
+button.marg-l-7 {
+  margin-left: 7px;
+}
+button.marg-r-24 {
+  margin-right: 24px;
+}
+button.marg-r-25 {
+  margin-right: 25px;
+}
+button.marg-r-15 {
+  margin-right: 15px;
+}
+.edit-tools {
+  overflow: hidden;
+  padding: 0 0 0 4px;
+  margin-bottom: 3px;
+}
+
+.marg-right8 {
+  margin: 0 3px 0 0 ;
+}
+.marg-t-8 {
+  margin-top: 8px;
+}
+.marg-t-5 {
+  margin-top: 5px;
+}
+.marg-t-10 {
+  margin-top: 10px;
+}
+.marg-t-13 {
+  margin-top: 13px;
+}
+.marg-t-24 {
+  margin-top: 24px;
+}
+.marg-t-30 {
+  margin-top: 30px;
+}
+.marg-t-37 {
+  margin-top: 37px;
+}
+.marg-t-80 {
+  margin-top: 80px;
+}
+
+.icon {
+  float: left;
+  display: inline-block;
+  width: 26px;
+  height: 24px;
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+/*.pencil-icon {*/
+  /*background: url("../img/t1.png") no-repeat;*/
+/*}*/
+/*.stamp-icon {*/
+  /*background: url("../img/t2.png") no-repeat;*/
+/*}*/
+/*.healing-icon {*/
+  /*background: url("../img/t3.png") no-repeat;*/
+/*}*/
+/*.lasso-icon {*/
+  /*background: url("../img/t4.png") no-repeat;*/
+/*}*/
+/*.pen-icon {*/
+  /*background: url("../img/t5.png") no-repeat;*/
+/*}*/
+
+.file-tools {
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.tool {
+  cursor: pointer;
+  width: 22px;
+  height: 20px;
+  float: left;
+}
+
+.label {
+  width: 175px;
+  height: 15px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+/*.dodge-burn {*/
+  /*background: url("../img/beauty-face-makeup-2.png") no-repeat center;*/
+/*}*/
+/*.separation {*/
+  /*background: url("../img/frequency-separation.png") no-repeat center;*/
+/*}*/
+/*.apply-image {*/
+  /*background: url("../img/apply-image.png");*/
+/*}*/
+
+/*.beauty {*/
+  /*background: url("../img/beauty-face-makeup.png") no-repeat center;*/
+/*}*/
+/*.quality {*/
+  /*background: url("../img/beauty-face-makeup-1.png") no-repeat center;*/
+/*}*/
+/*.hair {*/
+  /*background: url("../img/beauty-hair.png") no-repeat center;*/
+/*}*/
+/*.actions {*/
+  /*background: url("../img/user-actions.png") no-repeat center;*/
+/*}*/
+/*.luminosity {*/
+  /*background: url("../img/luminosity-masking.png") no-repeat center;*/
+/*}*/
+/*.signature {*/
+  /*width: 175px;*/
+  /*height: 11px;*/
+  /*cursor: pointer;*/
+  /*display: block;*/
+  /*margin-top: 5px;*/
+  /*background: url("../img/retouchingacademycom.png") no-repeat center;*/
+/*}*/
+#sharpen-image {
+  background: url("../img/sharpen.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #sharpen-image {
+    background-image: url('../img/sharpen@2x.png');
+    background-size: contain;
+  }
+}
+#sharpen-image:hover {
+  background: url("../img/sharpen-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #sharpen-image:hover {
+    background-image: url('../img/sharpen-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#add-new-layer {
+  background: url("../img/add-new-layer.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #add-new-layer {
+    background-image: url('../img/add-new-layer@2x.png');
+    background-size: 100%;
+  }
+}
+#add-new-layer:hover {
+  background: url("../img/add-new-layer-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #add-new-layer:hover {
+    background-image: url('../img/add-new-layer-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#liquify {
+  background: url("../img/liquify.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #liquify {
+    background-image: url('../img/liquify@2x.png');
+    background-size: 100%;
+  }
+}
+#liquify:hover {
+  background: url("../img/liquify-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #liquify:hover {
+    background-image: url('../img/liquify-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#liquify-smart {
+  background: url("../img/liquify-smart.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #liquify-smart {
+    background-image: url('../img/liquify-smart@2x.png');
+    background-size: 100%;
+  }
+}
+#liquify-smart:hover {
+  background: url("../img/liquify-smart-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #liquify-smart:hover {
+    background-image: url('../img/liquify-smart-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#local-curves {
+  background: url("../img/db-curves.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #local-curves {
+    background-image: url('../img/db-curves@2x.png');
+    background-size: 100%;
+  }
+}
+#local-curves:hover {
+  background: url("../img/db-curves-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #local-curves:hover {
+    background-image: url('../img/db-curves-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#global-layer {
+  background: url("../img/db-gray.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #global-layer {
+    background-image: url('../img/db-gray@2x.png');
+    background-size: 100%;
+  }
+}
+#global-layer:hover {
+  background: url("../img/db-gray-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #global-layer:hover {
+    background-image: url('../img/db-gray-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#custom {
+  background: url("../img/custom.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #custom {
+    background-image: url('../img/custom@2x.png');
+    background-size: 100%;
+  }
+}
+#custom:hover {
+  background: url("../img/custom-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #custom:hover {
+    background-image: url('../img/custom-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#median {
+  background: url("../img/fs_median.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #median {
+    background-image: url('../img/fs_median@2x.png');
+    background-size: 100%;
+  }
+}
+#median:hover {
+  background: url("../img/fs_median-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #median:hover {
+    background-image: url('../img/fs_median-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#gaussian {
+  background: url("../img/fs_gaussian.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #gaussian {
+    background-image: url('../img/fs_gaussian@2x.png');
+    background-size: 100%;
+  }
+}
+#gaussian:hover {
+  background: url("../img/fs_gaussian-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #gaussian:hover {
+    background-image: url('../img/fs_gaussian-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#digital-skin {
+  background: url("../img/skin-texture.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #digital-skin {
+    background-image: url('../img/skin-texture@2x.png');
+    background-size: 100%;
+  }
+}
+#digital-skin:hover {
+  background: url("../img/skin-texture-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #digital-skin:hover {
+    background-image: url('../img/skin-texture-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#magical-skin {
+  background: url("../img/magical-skin-tone.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #magical-skin {
+    background-image: url('../img/magical-skin-tone@2x.png');
+    background-size: 100%;
+  }
+}
+#magical-skin:hover {
+  background: url("../img/magical-skin-tone-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #magical-skin:hover {
+    background-image: url('../img/magical-skin-tone-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#glowing-skin {
+  background: url("../img/glowing-skin.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #glowing-skin {
+    background-image: url('../img/glowing-skin@2x.png');
+    background-size: 100%;
+  }
+}
+#glowing-skin:hover {
+  background: url("../img/glowing-skin-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #glowing-skin:hover {
+    background-image: url('../img/glowing-skin-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#anti-pink {
+  background: url("../img/anti-pink.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #anti-pink {
+    background-image: url('../img/anti-pink@2x.png');
+    background-size: 100%;
+  }
+}
+#anti-pink:hover {
+  background: url("../img/anti-pink-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #anti-pink:hover {
+    background-image: url('../img/anti-pink-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#magic-eyes {
+  background: url("../img/magic-eyes.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #magic-eyes {
+    background-image: url('../img/magic-eyes@2x.png');
+    background-size: 100%;
+  }
+}
+#magic-eyes:hover {
+  background: url("../img/magic-eyes-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #magic-eyes:hover {
+    background-image: url('../img/magic-eyes-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#magic-smile{
+  background: url("../img/magic-smile.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #magic-smile {
+    background-image: url('../img/magic-smile@2x.png');
+    background-size: 100%;
+  }
+}
+#magic-smile:hover {
+  background: url("../img/magic-smile-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #magic-smile:hover {
+    background-image: url('../img/magic-smile-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#remove-hair {
+  background: url("../img/remove-body-facial-hair.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #remove-hair {
+    background-image: url('../img/remove-body-facial-hair@2x.png');
+    background-size: 100%;
+  }
+}
+#remove-hair:hover {
+  background: url("../img/remove-body-facial-hair-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #remove-hair:hover {
+    background-image: url('../img/remove-body-facial-hair-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#solar-curve {
+  background: url("../img/solar-curve.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #solar-curve {
+    background-image: url('../img/solar-curve@2x.png');
+    background-size: 100%;
+  }
+}
+#solar-curve:hover {
+  background: url("../img/solar-curve-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #solar-curve:hover {
+    background-image: url('../img/solar-curve-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#hair-highlight {
+  background: url("../img/hair-highlights.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #hair-highlight {
+    background-image: url('../img/hair-highlights@2x.png');
+    background-size: 100%;
+  }
+}
+#hair-highlight:hover {
+  background: url("../img/hair-highlights-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #hair-highlight:hover {
+    background-image: url('../img/hair-highlights-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#over-saturation {
+  background: url("../img/over-saturation.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #over-saturation {
+    background-image: url('../img/over-saturation@2x.png');
+    background-size: 100%;
+  }
+}
+#over-saturation:hover {
+  background: url("../img/over-saturation-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #over-saturation:hover {
+    background-image: url('../img/over-saturation-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#lev {
+   background: url("../img/levels.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #lev {
+    background-image: url('../img/levels@2x.png');
+    background-size: 100%;
+  }
+}
+#lev:hover {
+  background: url("../img/levels-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #lev:hover {
+    background-image: url('../img/levels-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#cur {
+  background: url("../img/curves.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #cur {
+    background-image: url('../img/curves@2x.png');
+    background-size: 100%;
+  }
+}
+#cur:hover {
+  background: url("../img/curves-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #cur:hover {
+    background-image: url('../img/curves-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#hue {
+  background: url("../img/huesat.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #hue {
+    background-image: url('../img/huesat@2x.png');
+    background-size: 100%;
+  }
+}
+#hue:hover {
+  background: url("../img/huesat-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #hue:hover {
+    background-image: url('../img/huesat-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#sel {
+  background: url("../img/color.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #sel {
+    background-image: url('../img/color@2x.png');
+    background-size: 100%;
+  }
+}
+#sel:hover {
+  background: url("../img/color-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #sel:hover {
+    background-image: url('../img/color-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#leyr {
+  background: url("../img/stamp-layers.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #leyr {
+    background-image: url('../img/stamp-layers@2x.png');
+    background-size: 100%;
+  }
+}
+#leyr:hover {
+  background: url("../img/stamp-layers-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #leyr:hover {
+    background-image: url('../img/stamp-layers-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#web-size {
+  background: url("../img/web-size.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #web-size {
+    background-image: url('../img/web-size@2x.png');
+    background-size: 100%;
+  }
+}
+#web-size:hover {
+  background: url("../img/web-size-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #web-size:hover {
+    background-image: url('../img/web-size-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#size {
+  background: url("../img/size120.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #size {
+    background-image: url('../img/120size@2x.png');
+    background-size: 100%;
+  }
+}
+#size:hover {
+  background: url("../img/size120-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #size:hover {
+    background-image: url('../img/size-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#save-as{
+  background: url("../img/save-as.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #save-as {
+    background-image: url('../img/save-as@2x.png');
+    background-size: 100%;
+  }
+}
+#save-as:hover {
+  background: url("../img/save-as-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #save-as:hover {
+    background-image: url('../img/save-as-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#dodge {
+  background: url("../img/dodge.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #dodge {
+    background-image: url('../img/dodge@2x.png');
+    background-size: 100%;
+  }
+}
+#dodge:hover {
+  background: url("../img/dodge-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #dodge:hover {
+    background-image: url('../img/dodge-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#burn {
+  background: url("../img/burn.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #burn {
+    background-image: url('../img/burn@2x.png');
+    background-size: 100%;
+  }
+}
+#burn:hover {
+  background: url("../img/burn-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #burn:hover {
+    background-image: url('../img/burn-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#gray-layer {
+  background: url("../img/gray-layer.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #gray-layer {
+    background-image: url('../img/gray-layer@2x.png');
+    background-size: 100%;
+  }
+}
+#gray-layer:hover {
+  background: url("../img/gray-layer-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #gray-layer:hover {
+    background-image: url('../img/gray-layer-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#aid {
+  background: url("../img/visual-aid.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #aid {
+    background-image: url('../img/visual-aid@2x.png');
+    background-size: 100%;
+  }
+}
+#aid:hover {
+  background: url("../img/visual-aid-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #aid:hover {
+    background-image: url('../img/visual-aid-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#basic {
+  background: url("../img/basic.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #basic {
+    background-image: url('../img/basic@2x.png');
+    background-size: 100%;
+  }
+}
+#basic:hover {
+  background: url("../img/basic-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #basic:hover {
+    background-image: url('../img/basic-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#global-layer-brush {
+   background: url("../img/brush-2.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #global-layer-brush {
+    background-image: url('../img/brush-2@2x.png');
+    background-size: 100%;
+  }
+}
+#global-layer-brush:hover {
+  background: url("../img/brush-2-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #global-layer-brush:hover {
+    background-image: url('../img/brush-2-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#local-curves-brush-db {
+  background: url("../img/brush.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #local-curves-brush-db {
+    background-image: url('../img/brush@2x.png');
+    background-size: 100%;
+  }
+}
+#local-curves-brush-db:hover {
+  background: url("../img/brush-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #local-curves-brush-db:hover {
+    background-image: url('../img/brush-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#brush-1 {
+  background: url("../img/br1.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #brush-1 {
+    background-image: url('../img/br1@2x.png');
+    background-size: 100%;
+  }
+}
+#brush-1:hover {
+  background: url("../img/br-1-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #brush-1:hover {
+    background-image: url('../img/br1-hover@2x.png');
+    background-size: 100%;
+  }
+}
+
+#brush-2 {
+  background: url("../img/br2.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #brush-2 {
+    background-image: url('../img/br2@2x.png');
+    background-size: 100%;
+  }
+}
+#brush-2:hover {
+  background: url("../img/br-2-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #brush-2:hover {
+    background-image: url('../img/br2-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#plus {
+  background: url("../img/plus.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #plus {
+    background-image: url('../img/plus@2x.png');
+    background-size: 100%;
+  }
+}
+#plus:hover {
+  background: url("../img/plus-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #plus:hover {
+    background-image: url('../img/plus-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#minus {
+  background: url("../img/minus.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #minus {
+    background-image: url('../img/minus@2x.png');
+    background-size: 100%;
+  }
+}
+#minus:hover {
+  background: url("../img/minus-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #minus:hover {
+    background-image: url('../img/minus-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#invert {
+  background: url("../img/invert.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #invert {
+    background-image: url('../img/invert@2x.png');
+    background-size: contain;
+  }
+}
+#invert:hover {
+  background: url("../img/invert-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #invert:hover {
+    background-image: url('../img/invert-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#a {
+  background: url("../img/a.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #a {
+    background-image: url('../img/a@2x.png');
+    background-size: 100%;
+  }
+}
+#a:hover {
+  background: url("../img/a-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #a:hover {
+    background-image: url('../img/a-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#b {
+  background: url("../img/b.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #b {
+    background-image: url('../img/b@2x.png');
+    background-size: 100%;
+  }
+}
+#b:hover {
+  background: url("../img/b-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #b:hover {
+    background-image: url('../img/b-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#c {
+  background: url("../img/c.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #c {
+    background-image: url('../img/c@2x.png');
+    background-size: 100%;
+  }
+}
+#c:hover {
+  background: url("../img/c-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #c:hover {
+    background-image: url('../img/c-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#d {
+  background: url("../img/d.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #d {
+    background-image: url('../img/d@2x.png');
+    background-size: 100%;
+  }
+}
+#d:hover {
+  background: url("../img/d-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #d:hover {
+    background-image: url('../img/d-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#e {
+  background: url("../img/e.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #e {
+    background-image: url('../img/e@2x.png');
+    background-size: 100%;
+  }
+}
+#e:hover {
+  background: url("../img/e-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #e:hover {
+    background-image: url('../img/e-hover@2x.png');
+    background-size: 100%;
+  }
+}
+#f {
+  background: url("../img/f.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #f {
+    background-image: url('../img/f@2x.png');
+    background-size: 100%;
+  }
+}
+#f:hover {
+  background: url("../img/f-hover.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #f:hover {
+    background-image: url('../img/f-hover@2x.png');
+    background-size: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#btn1 {
+  background: url("../img/link4.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #btn1 {
+    background-image: url('../img/link4@2x.png');
+    background-size: 100%;
+  }
+}
+
+
+#btn2 {
+  background: url("../img/link1.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #btn2 {
+    background-image: url('../img/link1@2x.png');
+    background-size: 100%;
+  }
+}
+
+
+#btn3 {
+  background: url("../img/link3.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #btn3 {
+    background-image: url('../img/link3@2x.png');
+    background-size: 100%;
+  }
+}
+
+
+#btn4 {
+  background: url("../img/link2.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #btn4 {
+    background-image: url('../img/link2@2x.png');
+    background-size: 100%;
+  }
+}
+
+
+#btn5 {
+  background: url("../img/link5.png") no-repeat;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #btn5 {
+    background-image: url('../img/link5@2x.png');
+    background-size: contain;
+  }
+}
+
+.signature {
+  width: 157px;
+  height: 14px;
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+  margin-left: 11px;
+  background: url("../img/link.png") no-repeat center;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  #signature {
+    background-image: url('../img/link@2x.png');
+    background-size: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+.imgWrap {
+  position: relative;
+}
+
+
+
+
+.imgDescription {
+  position: absolute;
+  color: #fff;
+  background-color: #232323;
+  visibility: hidden;
+  opacity: 0;
+  padding: 5px;
+  color: #c5c5c5;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+  "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
+  "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #c5c5c5;
+
+  /*remove comment if you want a gradual transition between states
+-webkit-transition: visibility opacity 0.2s;
+*/
+}
+button:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtensionManifest Version="4.0" ExtensionBundleId="Blendit" ExtensionBundleVersion="1.0.0"
+		ExtensionBundleName="Blendit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Author>
+		<![CDATA[Wild_WinDer]]>
+	</Author>	<ExtensionList>
+		<Extension Id="Blendit" Version="1.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="PHXS" Version="14" />
+			<Host Name="PHSP" Version="14" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="4.0" />
+
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="Blendit">
+			<DispatchInfo >
+				<Resources>
+				<MainPath>./index.html</MainPath>
+				<ScriptPath>./jsx/main.jsx</ScriptPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>Blendit</Menu>
+					<Geometry>
+						<Size>
+							<Height>630</Height>
+							<Width>125</Width>
+						</Size>
+						<MaxSize>
+							<Height>630</Height>
+							<Width>125</Width>
+						</MaxSize>
+					</Geometry>
+					<Icons>
+						<Icon Type="Normal">./res/Lab.png</Icon>
+						<Icon Type="RollOver">./res/Lab.png</Icon>
+						<Icon Type="Disabled">./res/Lab.png</Icon>
+						<Icon Type="DarkNormal">./res/Lab_light.png</Icon>
+						<Icon Type="DarkRollOver">./res/Lab_light.png</Icon>
+					</Icons>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>
